@@ -1,7 +1,10 @@
 # A-24-Hour-Startup-OS
 
 ## What this project is
-A **24-Hour Startup Operating System** (Execution OS). It is an end-to-end system that ingests a raw product idea, extracts metadata, enforces clarity through a rigid structural process, and outputs a live, hosted, observable system ready for real-world user validation. 
+The repository hosts two massive paradigms:
+
+1. **A 24-Hour Startup Operating System** (Execution OS / The "Builder Muscle"). It is an end-to-end system that ingests a raw product idea, extracts metadata, enforces clarity through a rigid structural process, and outputs a live, hosted, observable system ready for real-world user validation. 
+2. **The Strategic Intelligence Engine (SIE)** (The "Investor Brain"). This acts as a continuous risk-modeling and evaluation engine that monitors the Builder Muscle, analyzing real-world behavior to generate live data rooms, valuation models, and automated "Fund/Hold/Kill" verdicts.
 
 *Not slides. Not theory. Something that runs.*
 
@@ -67,6 +70,14 @@ A-24-Hour-Startup-OS/
         ├── diagrams.md
         ├── roadmap.md
         └── philosophy.md
+    └── strategic-engine/
+        ├── overview.md
+        ├── architecture.md
+        ├── risk-models.md
+        ├── valuation-engine.md
+        ├── decision-matrix.md
+        ├── data-room-generator.md
+        └── diagrams.md
 ```
 
 ## Documentation Links
@@ -85,6 +96,15 @@ A-24-Hour-Startup-OS/
 - [System Diagrams](./docs/execution-os/diagrams.md)
 - [Roadmap](./docs/execution-os/roadmap.md)
 - [Core Philosophy](./docs/execution-os/philosophy.md)
+
+### Strategic Intelligence Engine (SIE)
+- [SIE Overview](./docs/strategic-engine/overview.md)
+- [SIE Architecture](./docs/strategic-engine/architecture.md)
+- [Risk Models](./docs/strategic-engine/risk-models.md)
+- [Continuous Valuation Engine](./docs/strategic-engine/valuation-engine.md)
+- [The Decision Matrix](./docs/strategic-engine/decision-matrix.md)
+- [Data Room Generator](./docs/strategic-engine/data-room-generator.md)
+- [SIE Diagrams](./docs/strategic-engine/diagrams.md)
 
 ## License placeholder
 [License Information Here]
