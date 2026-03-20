@@ -30,7 +30,7 @@ Most founders spend months "building" when they are actually just "thinking." Th
 ## Architecture overview
 The architecture prioritizes reliability, observability, and simplicity using the 12-Factor App methodology. It integrates standard presentation layers (Next.js/React or No-Code), unifies workflows via serverless triggers or API integration engines, persists state in managed storage (PostgreSQL/S3), and pushes absolute transparency through deep observability tooling.
 
-For full details, see the [Architecture Document](./docs/architecture.md).
+For full details, see the [Architecture Document](./docs/execution-os/architecture.md).
 
 ## Lifecycle overview
 The system relies on an 8-stage lifecycle model enforcing validation at every step:
@@ -43,7 +43,7 @@ The system relies on an 8-stage lifecycle model enforcing validation at every st
 7. **GTM:** Distribute via one channel.
 8. **Decision Engine:** Gather the proof to scale or kill.
 
-For the comprehensive breakdown, read the [Lifecycle Framework](./docs/lifecycle.md).
+For the comprehensive breakdown, read the [Lifecycle Framework](./docs/execution-os/lifecycle.md).
 
 ## Folder structure
 ```
@@ -51,56 +51,40 @@ A-24-Hour-Startup-OS/
 ├── README.md
 ├── LICENSE
 └── docs/
-    ├── overview.md
-    ├── architecture.md
-    ├── lifecycle.md
-    ├── modules.md
-    ├── workflow-engine.md
-    ├── build-system.md
-    ├── observability.md
-    ├── analytics.md
-    ├── decision-engine.md
-    ├── gtm.md
-    ├── cost-model.md
-    ├── state-machine.md
-    ├── diagrams.md
-    ├── roadmap.md
-    └── philosophy.md
+    └── execution-os/
+        ├── overview.md
+        ├── architecture.md
+        ├── lifecycle.md
+        ├── modules.md
+        ├── workflow-engine.md
+        ├── build-system.md
+        ├── observability.md
+        ├── analytics.md
+        ├── decision-engine.md
+        ├── gtm.md
+        ├── cost-model.md
+        ├── state-machine.md
+        ├── diagrams.md
+        ├── roadmap.md
+        └── philosophy.md
 ```
 
 ## Documentation Links
-- [System Overview](./docs/overview.md)
-- [Architecture & Layers](./docs/architecture.md)
-- [The Startup Lifecycle](./docs/lifecycle.md)
-- [System Modules](./docs/modules.md)
-- [Workflow Engine & Automation](./docs/workflow-engine.md)
-- [Build System & Infrastructure](./docs/build-system.md)
-- [Observability](./docs/observability.md)
-- [Product Analytics (AARRR)](./docs/analytics.md)
-- [The Decision Engine](./docs/decision-engine.md)
-- [GTM Strategies](./docs/gtm.md)
-- [Cost Models & Budgets](./docs/cost-model.md)
-- [The State Engine](./docs/state-machine.md)
-- [System Diagrams](./docs/diagrams.md)
-- [Roadmap](./docs/roadmap.md)
-- [Core Philosophy](./docs/philosophy.md)
-
-## Example flow
-1. **Founder inputs an idea:** Building a tool for freelance writers.
-2. **OS extracts metadata:** Constraints = No funding, 2 weeks to build. Outcome = Low-code build.
-3. **OS sets architecture:** Next.js + Supabase + Vercel. Total cost: $0.
-4. **OS sets workflow:** User Signup -> Stripe Check -> Access Dashboard -> Weekly Email.
-5. **Build Phase:** Scaffold generated. Event tracking injected to capture "Dashboard Accessed" and "Email Sent". 
-6. **GTM Launched:** $100 focused ad spend on Twitter targeted at freelance copywriters.
-7. **Decision Time (24 Hour Mark):** 30 signups, 0 conversions, 60% drop-off on Stripe page. System recommends **Pivot (Pricing/Value Proposition)**.
-
-## Roadmap
-- Expansion into natively integrated AI Agents for Intake and Review.
-- Visual Workflow GUI modeling.
-- Automatic Investor-Ready pitch deck assembly from analytics metrics.
-- Continuous Systems Simulation (Monte Carlo stress testing).
-
-*See the full [Roadmap Document](./docs/roadmap.md) for more details.*
+- [System Overview](./docs/execution-os/overview.md)
+- [Architecture & Layers](./docs/execution-os/architecture.md)
+- [The Startup Lifecycle](./docs/execution-os/lifecycle.md)
+- [System Modules](./docs/execution-os/modules.md)
+- [Workflow Engine & Automation](./docs/execution-os/workflow-engine.md)
+- [Build System & Infrastructure](./docs/execution-os/build-system.md)
+- [Observability](./docs/execution-os/observability.md)
+- [Product Analytics (AARRR)](./docs/execution-os/analytics.md)
+- [The Decision Engine](./docs/execution-os/decision-engine.md)
+- [GTM Strategies](./docs/execution-os/gtm.md)
+- [Cost Models & Budgets](./docs/execution-os/cost-model.md)
+- [The State Engine](./docs/execution-os/state-machine.md)
+- [System Diagrams](./docs/execution-os/diagrams.md)
+- [Roadmap](./docs/execution-os/roadmap.md)
+- [Core Philosophy](./docs/execution-os/philosophy.md)
 
 ## License placeholder
 [License Information Here]
