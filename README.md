@@ -1,10 +1,10 @@
-# A-24-Hour-Startup-OS
+# FoundryOS
 
 ## What this project is
 The repository hosts two massive paradigms:
 
-1. **A 24-Hour Startup Operating System** (Execution OS / The "Builder Muscle"). It is an end-to-end system that ingests a raw product idea, extracts metadata, enforces clarity through a rigid structural process, and outputs a live, hosted, observable system ready for real-world user validation. 
-2. **The Strategic Intelligence Engine (SIE)** (The "Investor Brain"). This acts as a continuous risk-modeling and evaluation engine that monitors the Builder Muscle, analyzing real-world behavior to generate live data rooms, valuation models, and automated "Fund/Hold/Kill" verdicts.
+1. **FoundryOS** (The "Builder Muscle"). It is an end-to-end system that ingests a raw product idea, extracts metadata, enforces clarity through a rigid structural process, and outputs a live, hosted, observable system ready for real-world user validation. 
+2. **The VentureOS** (The "Investor Brain"). This acts as a continuous risk-modeling and evaluation engine that monitors the Builder Muscle, analyzing real-world behavior to generate live data rooms, valuation models, and automated "Fund/Hold/Kill" verdicts.
 
 *Not slides. Not theory. Something that runs.*
 
@@ -33,7 +33,7 @@ Most founders spend months "building" when they are actually just "thinking." Th
 ## Architecture overview
 The architecture prioritizes reliability, observability, and simplicity using the 12-Factor App methodology. It integrates standard presentation layers (Next.js/React or No-Code), unifies workflows via serverless triggers or API integration engines, persists state in managed storage (PostgreSQL/S3), and pushes absolute transparency through deep observability tooling.
 
-For full details, see the [Architecture Document](./docs/execution-os/architecture.md).
+For full details, see the [Architecture Document](./docs/foundry-os/architecture.md).
 
 ## Lifecycle overview
 The system relies on the **12-Stage Canonical Lifecycle**:
@@ -50,73 +50,55 @@ The system relies on the **12-Stage Canonical Lifecycle**:
 11. Fundraising & PR
 12. Exit Strategy
 
-For the comprehensive breakdown, read the [12-Stage Lifecycle Framework](./docs/execution-os/12-stage-lifecycle.md) and the [90-Day Roadmap](./docs/execution-os/90-day-implementation-roadmap.md).
-
-## Folder structure
-```
-A-24-Hour-Startup-OS/
-├── README.md
-├── LICENSE
-└── docs/
-    └── execution-os/
-        ├── overview.md
-        ├── architecture.md
-        ├── lifecycle.md
-        ├── modules.md
-        ├── workflow-engine.md
-        ├── build-system.md
-        ├── observability.md
-        ├── analytics.md
-        ├── decision-engine.md
-        ├── gtm.md
-        ├── cost-model.md
-        ├── state-machine.md
-        ├── diagrams.md
-        ├── roadmap.md
-        └── philosophy.md
-    └── strategic-engine/
-        ├── 1-landing-page-vision.md
-        ├── 2-first-principles.md
-        ├── 3-system-architecture.md
-        ├── 4-structural-evaluation-engine.md
-        ├── 5-competitor-threat-engine.md
-        ├── 6-multi-agent-debate.md
-        ├── 7-probability-assignment.md
-        ├── 8-monte-carlo-simulator.md
-        ├── 9-personal-strategic-mode.md
-        ├── 10-vc-capital-mode.md
-        ├── 11-mode-switching-logic.md
-        ├── 12-data-schema.md
-        ├── 13-system-roadmap.md
-        └── 14-versioning-evolution.md
-```
+For the comprehensive breakdown, read the [12-Stage Lifecycle Framework](./docs/foundry-os/12-stage-lifecycle.md) and the [90-Day Roadmap](./docs/foundry-os/90-day-implementation-roadmap.md).
 
 ## Documentation Links
 
 ### Execution OS
-- [System Overview](./docs/execution-os/overview.md)
-- [Architecture & Layers](./docs/execution-os/architecture.md)
-- [The 12-Stage Lifecycle](./docs/execution-os/12-stage-lifecycle.md)
-- [The 90-Day Implementation Roadmap](./docs/execution-os/90-day-implementation-roadmap.md)
-- [The 8-Pillar Meta-System](./docs/execution-os/the-8-pillar-system.md)
-- [Validation Mechanics](./docs/execution-os/validation-mechanics.md)
-- [Core Differentiators](./docs/execution-os/core-differentiators.md)
+- [System Overview](./docs/foundry-os/overview.md)
+- [Architecture & Layers](./docs/foundry-os/architecture.md)
+- [The 12-Stage Lifecycle](./docs/foundry-os/12-stage-lifecycle.md)
+- [The 90-Day Implementation Roadmap](./docs/foundry-os/90-day-implementation-roadmap.md)
+- [The 8-Pillar Meta-System](./docs/foundry-os/the-8-pillar-system.md)
+- [Validation Mechanics](./docs/foundry-os/validation-mechanics.md)
+- [Core Differentiators](./docs/foundry-os/core-differentiators.md)
 
-### Strategic Intelligence Engine (SIE)
-- [1. Landing Page & Vision](./docs/strategic-engine/1-landing-page-vision.md)
-- [2. First Principles & Laws](./docs/strategic-engine/2-first-principles.md)
-- [3. System Architecture Flow](./docs/strategic-engine/3-system-architecture.md)
-- [4. Structural Evaluation Engine](./docs/strategic-engine/4-structural-evaluation-engine.md)
-- [5. Competitor Threat & Reaction Engine](./docs/strategic-engine/5-competitor-threat-engine.md)
-- [6. Multi-Agent Debate Architecture](./docs/strategic-engine/6-multi-agent-debate.md)
-- [7. Probability Assignment Methodology](./docs/strategic-engine/7-probability-assignment.md)
-- [8. Monte Carlo & Scenario Simulator](./docs/strategic-engine/8-monte-carlo-simulator.md)
-- [9. Personal Strategic Mode (PSM)](./docs/strategic-engine/9-personal-strategic-mode.md)
-- [10. VC Capital Mode (VCM)](./docs/strategic-engine/10-vc-capital-mode.md)
-- [11. Mode Switching Logic](./docs/strategic-engine/11-mode-switching-logic.md)
-- [12. Data Schema & Versioning](./docs/strategic-engine/12-data-schema.md)
-- [13. System Roadmap & Extensions](./docs/strategic-engine/13-system-roadmap.md)
-- [14. Versioning & Evolution](./docs/strategic-engine/14-versioning-evolution.md)
+### VentureOS
+- [1. Landing Page & Vision](./docs/venture-os/1-landing-page-vision.md)
+- [2. First Principles & Laws](./docs/venture-os/2-first-principles.md)
+- [3. System Architecture Flow](./docs/venture-os/3-system-architecture.md)
+- [4. Structural Evaluation Engine](./docs/venture-os/4-structural-evaluation-engine.md)
+- [5. Competitor Threat & Reaction Engine](./docs/venture-os/5-competitor-threat-engine.md)
+- [6. Multi-Agent Debate Architecture](./docs/venture-os/6-multi-agent-debate.md)
+- [7. Probability Assignment Methodology](./docs/venture-os/7-probability-assignment.md)
+- [8. Monte Carlo & Scenario Simulator](./docs/venture-os/8-monte-carlo-simulator.md)
+- [9. Personal Strategic Mode (PSM)](./docs/venture-os/9-personal-strategic-mode.md)
+- [10. VC Capital Mode (VCM)](./docs/venture-os/10-vc-capital-mode.md)
+- [11. Mode Switching Logic](./docs/venture-os/11-mode-switching-logic.md)
+- [12. Data Schema & Versioning](./docs/venture-os/12-data-schema.md)
+- [13. System Roadmap & Extensions](./docs/venture-os/13-system-roadmap.md)
+- [14. Versioning & Evolution](./docs/venture-os/14-versioning-evolution.md)
 
-## License placeholder
-[License Information Here]
+## License
+
+MIT License
+
+Copyright (c) 2024
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
