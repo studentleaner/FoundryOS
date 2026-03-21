@@ -6,6 +6,12 @@ The 24-Hour Startup Operating System (Execution OS) is a rigid, structural frame
 
 Most founders spend months trapped in an "ideation loop," building features without verifying intent. The Execution OS rejects this by forcing real-world deployment, instrumentation, and constraint-based Go-To-Market (GTM) experiments before a project is deemed viable.
 
+## Deep Abstractions
+- [The 11-Stage Canonical Lifecycle](11-stage-lifecycle.md)
+- [The 8-Pillar Meta-System](the-8-pillar-system.md)
+- [Core Differentiators](core-differentiators.md)
+- [Validation Mechanics](validation-mechanics.md)
+
 ## The Core Philosophy
 1. **Evidence over Opinions:** Interviews lie; behavior doesn't. Validation requires real friction (e.g., payments, email submissions, organic time spent).
 2. **Systems over Ideas:** Ideas are commoditized. A startup is an interlocking set of systems. We build the system to test the idea, rather than building the idea directly.
