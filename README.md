@@ -36,17 +36,21 @@ The architecture prioritizes reliability, observability, and simplicity using th
 For full details, see the [Architecture Document](./docs/execution-os/architecture.md).
 
 ## Lifecycle overview
-The system relies on an 8-stage lifecycle model enforcing validation at every step:
-1. **Ideation:** Discover the problem reality.
-2. **Validation:** Behavior over opinions.
-3. **Business Strategy:** Identify execution gaps for differentiation.
-4. **MVP:** Design to test the core assumption.
-5. **Build:** Execution over feature bloat.
-6. **Analytics:** Measure reality.
-7. **GTM:** Distribute via one channel.
-8. **Decision Engine:** Gather the proof to scale or kill.
+The system relies on the **12-Stage Canonical Lifecycle**:
+1. Ideation & Intent
+2. Validation
+3. Business Design
+4. MVP Spec
+5. Analytics
+6. GTM & SEO
+7. Retention (PMF)
+8. Operations & Revenue
+9. Scale
+10. Governance & Legal
+11. Fundraising & PR
+12. Exit Strategy
 
-For the comprehensive breakdown, read the [Lifecycle Framework](./docs/execution-os/lifecycle.md).
+For the comprehensive breakdown, read the [12-Stage Lifecycle Framework](./docs/execution-os/12-stage-lifecycle.md) and the [90-Day Roadmap](./docs/execution-os/90-day-implementation-roadmap.md).
 
 ## Folder structure
 ```
@@ -71,40 +75,48 @@ A-24-Hour-Startup-OS/
         ├── roadmap.md
         └── philosophy.md
     └── strategic-engine/
-        ├── overview.md
-        ├── architecture.md
-        ├── risk-models.md
-        ├── valuation-engine.md
-        ├── decision-matrix.md
-        ├── data-room-generator.md
-        └── diagrams.md
+        ├── 1-landing-page-vision.md
+        ├── 2-first-principles.md
+        ├── 3-system-architecture.md
+        ├── 4-structural-evaluation-engine.md
+        ├── 5-competitor-threat-engine.md
+        ├── 6-multi-agent-debate.md
+        ├── 7-probability-assignment.md
+        ├── 8-monte-carlo-simulator.md
+        ├── 9-personal-strategic-mode.md
+        ├── 10-vc-capital-mode.md
+        ├── 11-mode-switching-logic.md
+        ├── 12-data-schema.md
+        ├── 13-system-roadmap.md
+        └── 14-versioning-evolution.md
 ```
 
 ## Documentation Links
+
+### Execution OS
 - [System Overview](./docs/execution-os/overview.md)
 - [Architecture & Layers](./docs/execution-os/architecture.md)
-- [The Startup Lifecycle](./docs/execution-os/lifecycle.md)
-- [System Modules](./docs/execution-os/modules.md)
-- [Workflow Engine & Automation](./docs/execution-os/workflow-engine.md)
-- [Build System & Infrastructure](./docs/execution-os/build-system.md)
-- [Observability](./docs/execution-os/observability.md)
-- [Product Analytics (AARRR)](./docs/execution-os/analytics.md)
-- [The Decision Engine](./docs/execution-os/decision-engine.md)
-- [GTM Strategies](./docs/execution-os/gtm.md)
-- [Cost Models & Budgets](./docs/execution-os/cost-model.md)
-- [The State Engine](./docs/execution-os/state-machine.md)
-- [System Diagrams](./docs/execution-os/diagrams.md)
-- [Roadmap](./docs/execution-os/roadmap.md)
-- [Core Philosophy](./docs/execution-os/philosophy.md)
+- [The 12-Stage Lifecycle](./docs/execution-os/12-stage-lifecycle.md)
+- [The 90-Day Implementation Roadmap](./docs/execution-os/90-day-implementation-roadmap.md)
+- [The 8-Pillar Meta-System](./docs/execution-os/the-8-pillar-system.md)
+- [Validation Mechanics](./docs/execution-os/validation-mechanics.md)
+- [Core Differentiators](./docs/execution-os/core-differentiators.md)
 
 ### Strategic Intelligence Engine (SIE)
-- [SIE Overview](./docs/strategic-engine/overview.md)
-- [SIE Architecture](./docs/strategic-engine/architecture.md)
-- [Risk Models](./docs/strategic-engine/risk-models.md)
-- [Continuous Valuation Engine](./docs/strategic-engine/valuation-engine.md)
-- [The Decision Matrix](./docs/strategic-engine/decision-matrix.md)
-- [Data Room Generator](./docs/strategic-engine/data-room-generator.md)
-- [SIE Diagrams](./docs/strategic-engine/diagrams.md)
+- [1. Landing Page & Vision](./docs/strategic-engine/1-landing-page-vision.md)
+- [2. First Principles & Laws](./docs/strategic-engine/2-first-principles.md)
+- [3. System Architecture Flow](./docs/strategic-engine/3-system-architecture.md)
+- [4. Structural Evaluation Engine](./docs/strategic-engine/4-structural-evaluation-engine.md)
+- [5. Competitor Threat & Reaction Engine](./docs/strategic-engine/5-competitor-threat-engine.md)
+- [6. Multi-Agent Debate Architecture](./docs/strategic-engine/6-multi-agent-debate.md)
+- [7. Probability Assignment Methodology](./docs/strategic-engine/7-probability-assignment.md)
+- [8. Monte Carlo & Scenario Simulator](./docs/strategic-engine/8-monte-carlo-simulator.md)
+- [9. Personal Strategic Mode (PSM)](./docs/strategic-engine/9-personal-strategic-mode.md)
+- [10. VC Capital Mode (VCM)](./docs/strategic-engine/10-vc-capital-mode.md)
+- [11. Mode Switching Logic](./docs/strategic-engine/11-mode-switching-logic.md)
+- [12. Data Schema & Versioning](./docs/strategic-engine/12-data-schema.md)
+- [13. System Roadmap & Extensions](./docs/strategic-engine/13-system-roadmap.md)
+- [14. Versioning & Evolution](./docs/strategic-engine/14-versioning-evolution.md)
 
 ## License placeholder
 [License Information Here]
