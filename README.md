@@ -1,12 +1,11 @@
 # FoundryOS
 
 ## What this project is
-The repository hosts two massive paradigms:
-
-1. **FoundryOS** (The "Builder Muscle"). It is an end-to-end system that ingests a raw product idea, extracts metadata, enforces clarity through a rigid structural process, and outputs a live, hosted, observable system ready for real-world user validation. 
-2. **The VentureOS** (The "Investor Brain"). This acts as a continuous risk-modeling and evaluation engine that monitors the Builder Muscle, analyzing real-world behavior to generate live data rooms, valuation models, and automated "Fund/Hold/Kill" verdicts.
+**FoundryOS** (The "Builder Muscle") is an end-to-end execution system that ingests a raw product idea, extracts metadata, enforces clarity through a rigid structural process, and outputs a live, hosted, observable system ready for real-world user validation.
 
 *Not slides. Not theory. Something that runs.*
+
+*(Note: The strategic and capital evaluation engine, **VentureOS**, has been explicitly decoupled into its own repository: [https://github.com/studentleaner/VentureOS](https://github.com/studentleaner/VentureOS))*
 
 ## Why it exists
 Most founders spend months "building" when they are actually just "thinking." The market is flooded with knowledge providers (courses, books) and structure providers (templates, checklists) but is starved for **execution enforcers**. The OS forces decisions to be made based on execution signals rather than feelings. 
@@ -54,30 +53,7 @@ For the comprehensive breakdown, read the [12-Stage Lifecycle Framework](./docs/
 
 ## Documentation Links
 
-### Execution OS
-- [System Overview](./docs/foundry-os/overview.md)
-- [Architecture & Layers](./docs/foundry-os/architecture.md)
-- [The 12-Stage Lifecycle](./docs/foundry-os/12-stage-lifecycle.md)
-- [The 90-Day Implementation Roadmap](./docs/foundry-os/90-day-implementation-roadmap.md)
-- [The 8-Pillar Meta-System](./docs/foundry-os/the-8-pillar-system.md)
-- [Validation Mechanics](./docs/foundry-os/validation-mechanics.md)
-- [Core Differentiators](./docs/foundry-os/core-differentiators.md)
 
-### VentureOS
-- [1. Landing Page & Vision](./docs/venture-os/1-landing-page-vision.md)
-- [2. First Principles & Laws](./docs/venture-os/2-first-principles.md)
-- [3. System Architecture Flow](./docs/venture-os/3-system-architecture.md)
-- [4. Structural Evaluation Engine](./docs/venture-os/4-structural-evaluation-engine.md)
-- [5. Competitor Threat & Reaction Engine](./docs/venture-os/5-competitor-threat-engine.md)
-- [6. Multi-Agent Debate Architecture](./docs/venture-os/6-multi-agent-debate.md)
-- [7. Probability Assignment Methodology](./docs/venture-os/7-probability-assignment.md)
-- [8. Monte Carlo & Scenario Simulator](./docs/venture-os/8-monte-carlo-simulator.md)
-- [9. Personal Strategic Mode (PSM)](./docs/venture-os/9-personal-strategic-mode.md)
-- [10. VC Capital Mode (VCM)](./docs/venture-os/10-vc-capital-mode.md)
-- [11. Mode Switching Logic](./docs/venture-os/11-mode-switching-logic.md)
-- [12. Data Schema & Versioning](./docs/venture-os/12-data-schema.md)
-- [13. System Roadmap & Extensions](./docs/venture-os/13-system-roadmap.md)
-- [14. Versioning & Evolution](./docs/venture-os/14-versioning-evolution.md)
 
 ## License
 
